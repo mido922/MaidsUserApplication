@@ -1,0 +1,8 @@
+<div class="container center userCard d-flex border align-items-center flex-column" >
+  <p><strong>ID:</strong> {{ data.id }}</p>
+  <p><strong>Email:</strong> {{ data.email }}</p>
+  <p><strong>First Name:</strong> {{ data.first_name }}</p>
+  <p><strong>Last Name:</strong> {{ data.last_name }}</p>
+  <p><strong>Avatar:</strong></p>
+  <img [src]="data.avatar" alt="{{ data.first_name }}'s avatar" />
+</div>
